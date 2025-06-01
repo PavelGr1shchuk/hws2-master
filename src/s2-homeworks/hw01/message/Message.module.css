@@ -1,9 +1,9 @@
 .message {
-
 }
 
 .imageAndText {
-
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .imageAndText img {
@@ -27,5 +27,6 @@
 }
 
 .time {
-
+    display: flex;
+    flex-direction: row-reverse;
 }

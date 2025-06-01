@@ -3,7 +3,7 @@
 }
 
 .friendImageAndText {
-
+    display: flex;
 }
 
 .friendImageAndText img {
