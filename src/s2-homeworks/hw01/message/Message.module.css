@@ -1,6 +1,4 @@
-.message {
-    padding-inline: 50px;
-}
+.message {}
 
 .imageAndText {
     display: flex;
@@ -13,22 +11,40 @@
 }
 
 .text {
-
+    position: relative;
+    background: #0066CC;
+    padding: 10px 15px;
+    border-radius: 16px;
+    border-bottom-right-radius: 0px;
+    max-width: 50%;
+    margin-right: 20px;
+    color: white;
 }
 
 .text:after {
-
+    content: "";
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-left-color: #0066CC;
+    border-right: 0;
+    border-bottom: 0;
 }
 
 .name {
-
+    text-align: right;
+    font-weight: 600;
 }
 
-.messageText {
-
-}
+.messageText {}
 
 .time {
     display: flex;
     flex-direction: row-reverse;
+    font-weight: 600;
+    font-size: 10px;
+    margin-right: 10px;
 }
