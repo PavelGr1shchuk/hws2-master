@@ -1,5 +1,5 @@
 .message {
-
+    padding-inline: 50px;
 }
 
 .imageAndText {
@@ -8,8 +8,8 @@
 }
 
 .imageAndText img {
-    height: 50px;
-    width: 50px;
+    height: 48px;
+    width: 48px;
 }
 
 .text {
