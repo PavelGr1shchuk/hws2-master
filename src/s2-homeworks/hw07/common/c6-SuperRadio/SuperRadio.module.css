@@ -1,14 +1,19 @@
 .radio {
+    width: 20px;
+    height: 20px;
 }
 
 .radio::before {
+    background-color: black;
 }
-
 
 .radio:checked::before {
 }
 
 .label {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 
 .options {
