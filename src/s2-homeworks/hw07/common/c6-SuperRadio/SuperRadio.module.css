@@ -1,14 +1,12 @@
 .radio {
     width: 20px;
     height: 20px;
+    accent-color: black;
 }
 
-.radio::before {
-    background-color: black;
-}
+.radio::before {}
 
-.radio:checked::before {
-}
+.radio:checked::before {}
 
 .label {
     display: flex;
@@ -16,5 +14,4 @@
     margin-bottom: 10px;
 }
 
-.options {
-}
+.options {}
