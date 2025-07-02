@@ -1,14 +1,22 @@
 .buttonsContainer {
+    display: flex;
+    gap: 20px;
 }
 
-.clock {
+.buttonsContainer button {
+    width: unset;
 }
 
-.watch {
+.buttonsContainer button:disabled {
+    opacity: 0.4;
+    color: white;
+    background-color: #0066CC;
 }
 
-.watch strong {
-}
+.clock {}
 
-.more {
-}
+.watch {}
+
+.watch strong {}
+
+.more {}
