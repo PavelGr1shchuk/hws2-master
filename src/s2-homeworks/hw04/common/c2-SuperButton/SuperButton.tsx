@@ -23,6 +23,7 @@ const SuperButton: React.FC<SuperButtonPropsType> = (
             : (xType === 'red' || xType === 'secondary')
                 ? ' ' + s[xType as 'red'] : ' ' + s.default)
         + (className ? ' ' + className : '') // задачка на смешивание классов
+        + (className === 'fit-content' ? ' ' + s.fitContent : '')
 
     return (
         <button

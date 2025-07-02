@@ -11,6 +11,10 @@
     line-height: 20px;
 }
 
+.button.fitContent {
+    width: unset;
+}
+
 .disabled {
     background-color: #004D99;
     color: #002E5C;
