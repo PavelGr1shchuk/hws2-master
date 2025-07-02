@@ -1,8 +1,12 @@
 .container {
+    width: 300px;
 }
 
 .wrapper {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    font-weight: 600;
 }
 
-.number {
-}
+.number {}
